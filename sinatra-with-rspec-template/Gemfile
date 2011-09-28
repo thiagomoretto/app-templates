@@ -5,5 +5,6 @@ gem "sinatra"
 group :test do
 	gem "rspec"
 	gem "rack-test"
-	gem "autotest"
+	gem "autotest", 	:require => false
+	gem 'simplecov', 	:require => false
 end

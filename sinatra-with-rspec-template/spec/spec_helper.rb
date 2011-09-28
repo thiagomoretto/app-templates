@@ -3,6 +3,9 @@ require File.dirname(__FILE__) + '/../app'
 require 'rubygems'
 require 'rack/test'
 require 'rspec'
+require 'simplecov'
+
+SimpleCov.start
 
 set :environment, :test
 set :run, false
