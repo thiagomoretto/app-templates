@@ -1,0 +1,9 @@
+Are you on OSX? Try:
+
+	$ gem install autotest-growl
+	
+And put
+
+	require 'autotest/growl'
+	
+on your .autotest file.

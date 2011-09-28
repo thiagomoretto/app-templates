@@ -1,0 +1,14 @@
+require 'autotest/growl'
+
+Autotest.add_discovery { "rspec2" }
+
+# Suggestions:
+#
+# Autotest.add_hook(:initialize) do |at|
+#  	at.add_exception %r{^\.git}
+#  	at.add_exception %r{^./tmp}
+# 	at.clear_mappings
+# 	at.add_mapping(%r{^lib/.*\.rb$}) {|f, _|
+#   	Dir['spec/**/*.rb']
+# 	}
+# end
